@@ -232,7 +232,20 @@ section.our-working-info, .sponsor, .services{
     height: 178px;
     width: 178px;
     border-radius: 7px;
+    transition-duration: 0.3s;
 }
+
+/* Css annimation */
+.details-box:hover, .details-box:focus, .details-box:active {
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    border: 2px solid #FF900E;
+    background: rgb(255, 251, 251);
+    background: linear-gradient(90deg, rgb(236 219 152 / 40%) 27%, rgb(246 246 178 / 12%) 78%, rgb(207, 206, 210) 100%);
+     rotate:-1deg;
+  }
+
+
 .info-details h3 {
     font-weight: 700;
     font-size: 34px;
@@ -345,6 +358,16 @@ footer p {
     color: #424242;
     padding: 25px 0px;
 }
+
+
+/* annimation */
+
+
+
+
+
+
+
 /* -------------
 Mobile Responsive
 -------------- */
@@ -374,6 +397,7 @@ Mobile Responsive
 
     .feature-img ,.service-box{
         grid-template-columns: repeat(1,1fr);
+        margin: auto;
     }
     .feature-img img ,section.feature-variations, .variation-banner img,section.our-working-info, section.sponsor ,.services{
         width: 100%;
@@ -412,6 +436,9 @@ Mobile Responsive
         width: 24%;
         margin: auto;
         margin-bottom: -54px;
+    }
+    h3.section-title {
+        margin-top: 57px;
     }
     footer {
         margin-top: 72px;
