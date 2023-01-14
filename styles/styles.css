@@ -329,6 +329,22 @@ section.sponsor p {
 .sponsor-companies img {
     filter: grayscale(100%);
 }
+
+/* footer section */
+footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    width: 1264px;
+    margin: auto;
+    margin-top: 85px;
+    margin-bottom: 30px;
+}
+footer p {
+    font-size: 20px;
+    color: #424242;
+    padding: 25px 0px;
+}
 /* -------------
 Mobile Responsive
 -------------- */
@@ -396,5 +412,10 @@ Mobile Responsive
         width: 24%;
         margin: auto;
         margin-bottom: -54px;
+    }
+    footer {
+        margin-top: 72px;
+        width: 90%;
+        margin-bottom: 30px;
     }
 }
