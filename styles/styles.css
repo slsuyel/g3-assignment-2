@@ -1,0 +1,327 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+header{
+    background: rgba(255, 144, 14, 0.1);
+    padding-top: 40px;
+}
+.topnav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h4{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+
+
+.menu-items {
+    display: flex;
+    align-items: center;
+}
+  nav a {
+    font-size: 18px;
+    display: block;
+    color: #424242;
+    font-weight: 500;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: none;
+  }
+
+
+            /* -----------
+            Banner-section 
+            -------------*/
+
+
+  .banner-section {
+    margin-top: 135px;
+}
+.banner-details{
+    width: 870px;
+    margin: auto;
+}
+
+  .banner-details h2 {
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+  }
+
+.banner-details p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #727272;
+        margin-top: 30px;
+    }
+    .banner-image {
+        text-align: center;
+    }
+  .banner-image img {
+    width: 1080px;
+    padding-bottom: 45px;
+}
+
+.button {
+    width: 180px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+
+            /* ------------
+            feature section
+            --------------- */
+
+  .feature-img img {
+        width: 224px;
+        padding: 8px;
+    }
+
+    section.Features-list {
+        display: flex;
+        width: 1000px;
+        margin: auto;
+        margin-top: 85px;
+        gap: 70px;
+    }
+    .feature-img {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .feature-details {
+        margin-top: 107px;
+    }
+  .feature-details h4 {
+        font-size: 35px;
+        font-weight: 500;
+        color: #FF900E;
+        margin-bottom: 23px;
+    }
+
+    span.quick-list {
+        color: #727272;
+
+    }
+    span.our {
+        color: #131313;
+    }
+
+.feature-details p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #727272;
+    }
+ .feature-details .button {
+        margin-left: 0;
+    }
+
+    /* --- feature of variations--- */
+    section.feature-variations {
+        display: flex;
+        width: 1080px;
+        margin: auto;
+        margin-top: 90px;
+    }
+    h3.variation-title {
+        font-weight: 700;
+        font-size: 45px;
+        color: #131313;
+    }
+    .variation-banner img {
+        height: 780px;
+    }
+    h3.variation-title {
+        font-weight: 700;
+        font-size: 45px;
+        color: #131313;
+        border-left: 4px solid #FF900E;
+        padding: 0px 8px;
+        margin-bottom: 24px;
+    }
+    .variation-description p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #727272;
+        margin-bottom: 56px;
+    }
+    .varoation-item {
+        padding: 18px 0px;
+      
+    }
+    .var-title h4 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 23px;
+        color: #131313;
+    }
+    .var-des p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #727272;
+        margin-right: 12px;
+    }
+    .experience-box {
+        width: 225px;
+        height: 117px;
+        background: #FF900E;
+        position: absolute;
+        margin-top: -76px;
+        margin-left: -46px;
+        border-radius: 10px;
+    }
+    .experience-box h4 {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 70px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .experience-box p {
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    section.feature-variations.hide {
+        display: none;
+    } 
+
+/* ---------------------------
+At a glance our working info
+--------------------------- */
+section.our-working-info {
+    width: 1080px;
+    margin: auto;
+    margin-top: 64px;
+}
+.at-a-glance {
+    display: flex;
+    justify-content: space-between;
+}
+.details-box {
+    border: 3px solid #FF900E;
+    text-align: center;
+    height: 178px;
+    width: 178px;
+    border-radius: 7px;
+}
+.info-details h3 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #131313;
+}
+.info-details {
+    width: 66%;
+}
+.info-details p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 43px;
+}
+.details-box img {
+    width: 46px;
+    margin-top: 14px;
+}
+h4.info-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 53px;
+    color: #424242;
+}
+p.info-description {
+    font-size: 18px;
+    line-height: 23px;
+    color: #727272;
+}
+
+/* -------------
+Mobile Responsive
+-------------- */
+
+@media screen and (max-width:576px) {
+    nav ul , .menu-items, section.Features-list,section.feature-variations {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo h4{
+        font-size: 20px;
+    }
+    .banner-details, .banner-image img, section.Features-list{
+        width: 80%;
+        margin: auto;
+    }
+    .banner-details h2{
+        font-size: 24px;
+    }
+    .banner-section,.feature-details,section.feature-variations {
+        margin-top: 15px;
+    }
+
+    .feature-img {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .feature-img img ,section.feature-variations, .variation-banner img,section.our-working-info{
+        width: 100%;
+        margin: auto;
+    }
+    h3.variation-title {
+        text-align: center;
+        font-size: 26px;
+    }
+    .variation-description {margin: 0px 10px;}
+    .varoation-item {
+        padding: 18px 7px;
+    }
+    .variation-banner img{
+        height: 100%;
+    }
+    .experience-box{
+            margin: auto;
+            width: 200px;
+            height: 103px;
+    }
+    .at-a-glance {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .info-details {
+        width: 66%;
+        margin: auto;
+        margin-top: 142px;
+    }
+}
