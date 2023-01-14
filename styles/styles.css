@@ -217,7 +217,7 @@ header{
 /* ---------------------------
 At a glance our working info
 --------------------------- */
-section.our-working-info {
+section.our-working-info, .sponsor, .services{
     width: 1080px;
     margin: auto;
     margin-top: 64px;
@@ -265,17 +265,83 @@ p.info-description {
     color: #727272;
 }
 
+/* Services */
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.service-box {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 38px;
+    gap: 25px;
+}
+.service {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgb(0 0 0 / 6%);
+    border-radius: 5px;
+    padding: 30px;
+}
+h3.service-name {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #131313
+    ;
+}
+p.service-description {
+    font-size: 18px;
+    line-height: 23px;
+    color: #727272;
+}
+/* -------------
+sponsor section
+------------- */
+
+section.sponsor h4 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #131313;
+    text-align: center;
+    margin-top: 100px;
+}
+section.sponsor p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+.sponsor-companies {
+    display: flex;
+    justify-content: space-between;
+    gap: 102px;
+    margin-top: 46px;
+    margin-left: -7%;
+}
+.sponsor-companies img {
+    filter: grayscale(100%);
+}
 /* -------------
 Mobile Responsive
 -------------- */
 
 @media screen and (max-width:576px) {
-    nav ul , .menu-items, section.Features-list,section.feature-variations {
+    nav ul , .menu-items, section.Features-list,section.feature-variations,  .sponsor-companies{
         display: flex;
         align-items: center;
         flex-direction: column;
         align-items: flex-start;
     }
+
+
     .logo h4{
         font-size: 20px;
     }
@@ -290,10 +356,10 @@ Mobile Responsive
         margin-top: 15px;
     }
 
-    .feature-img {
+    .feature-img ,.service-box{
         grid-template-columns: repeat(1,1fr);
     }
-    .feature-img img ,section.feature-variations, .variation-banner img,section.our-working-info{
+    .feature-img img ,section.feature-variations, .variation-banner img,section.our-working-info, section.sponsor ,.services{
         width: 100%;
         margin: auto;
     }
@@ -323,5 +389,12 @@ Mobile Responsive
         width: 66%;
         margin: auto;
         margin-top: 142px;
+    }
+  
+
+    .sponsor-companies img{
+        width: 24%;
+        margin: auto;
+        margin-bottom: -54px;
     }
 }
