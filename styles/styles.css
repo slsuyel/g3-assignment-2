@@ -141,7 +141,9 @@ header{
         margin-left: 0;
     }
 
-    /* --- feature of variations--- */
+            /* ------------
+            feature of variations
+            ------------ */
     section.feature-variations {
         display: flex;
         width: 1080px;
@@ -194,7 +196,7 @@ header{
         background: #FF900E;
         position: absolute;
         margin-top: -76px;
-        margin-left: -46px;
+        margin-left: -36px;
         border-radius: 10px;
     }
     .experience-box h4 {
@@ -214,9 +216,9 @@ header{
         display: none;
     } 
 
-/* ---------------------------
-At a glance our working info
---------------------------- */
+            /* ---------------------------
+            At a glance our working info
+            --------------------------- */
 section.our-working-info, .sponsor, .services{
     width: 1080px;
     margin: auto;
@@ -235,7 +237,10 @@ section.our-working-info, .sponsor, .services{
     transition-duration: 0.3s;
 }
 
-/* Css annimation */
+            /* -------
+            Css annimation
+            ---------- */
+
 .details-box:hover, .details-box:focus, .details-box:active {
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
     transform: scale(1.1);
@@ -278,7 +283,9 @@ p.info-description {
     color: #727272;
 }
 
-/* Services */
+        /*--------- 
+           Services 
+       ---------- */
 .section-title {
     text-align: center;
     font-weight: 700;
@@ -312,9 +319,9 @@ p.service-description {
     line-height: 23px;
     color: #727272;
 }
-/* -------------
-sponsor section
-------------- */
+            /* -------------
+            sponsor section
+            ------------- */
 
 section.sponsor h4 {
     font-weight: 700;
@@ -343,7 +350,9 @@ section.sponsor p {
     filter: grayscale(100%);
 }
 
-/* footer section */
+   /*-------
+    footer section 
+    --------*/
 footer {
     background: #FFF4E7;
     border-radius: 8px;
@@ -360,17 +369,9 @@ footer p {
 }
 
 
-/* annimation */
-
-
-
-
-
-
-
-/* -------------
-Mobile Responsive
--------------- */
+                    /* ------------------------
+                     ------Mobile Responsive-----
+                    ------------------------ */
 
 @media screen and (max-width:576px) {
     nav ul , .menu-items, section.Features-list,section.feature-variations,  .sponsor-companies{
@@ -399,7 +400,7 @@ Mobile Responsive
         grid-template-columns: repeat(1,1fr);
         margin: auto;
     }
-    .feature-img img ,section.feature-variations, .variation-banner img,section.our-working-info, section.sponsor ,.services{
+    .feature-img img ,section.feature-variations, .variation-banner img,section.our-working-info, section.sponsor ,.services, section.sponsor p{
         width: 100%;
         margin: auto;
     }
